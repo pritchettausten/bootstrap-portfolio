@@ -1,0 +1,112 @@
+body {
+	background:url(../images/paisley.png);
+	padding: 0px 15px 0px 15px;
+}
+
+hr {
+	height: 3px;
+	color: black;
+}
+
+#about {
+	margin-top: 0px; 
+	padding: 15px 15px 15px 15px;
+	border-bottom: 2px solid #ddd;
+}
+#portfolio {
+	margin-top: 0px; 
+	padding: 15px 15px 15px 15px;
+	border-bottom: 2px solid #ddd;
+}
+.container-fluid {
+	padding: 15px 100px 15px 100px;
+	border: 1px solid #ddd;
+}
+
+.container {
+	color: black;
+}
+
+
+
+.mainBody1 {
+	color: #777777;
+	background-color: #f8f8f8;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+#pic {
+	float: left;
+	height: 240px;
+	width: 240px;
+	padding: 5px 10px 10px 5px;
+}
+#aboutMe {
+	padding-left: 10px
+}
+
+#copyright {
+	color: white;
+	letter-spacing: 1px;
+}
+
+#contact-form ul {
+	margin-bottom: 20px;
+}
+
+#contact-form li {
+	margin-bottom: 10px;
+}
+.panel-heading {
+	font-size: 30px;
+	text-align: center;
+}
+.social {
+	width: 50px;
+	height: auto;
+}
+.panel-body {
+	text-align: center;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 95%;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+	height: 35px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+textarea {
+	height:200px;
+}
+
+input[type=submit] {
+	background: #ABEF90;
+	border: 0 none;
+	color: #777777;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+.footer {
+	bottom: 0;
+	position: absolute;
+	clear: both;
+    width: 100%;
+    height: 60px;
+    line-height: 60px; 
+    background-color: #f8f8f8;
+    text-align: center;
